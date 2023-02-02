@@ -7,5 +7,9 @@ urlpatterns = [
     #главная страничка сайта
     path('', home),
     #галвная страница показа статей
-    path('news/', include('news.urls'))
+    path('news/', include('news.urls')),
+    #Адрес на приложение регистрации
+    path('registration/', include('registration.urls')),
+    #Аутенфикация
+    path('accounts/', include('django.contrib.auth.urls'))
 ]

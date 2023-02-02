@@ -1,0 +1,26 @@
+<!-- это шаблон профиля -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'news/css/main_news(css).css' %}">
+
+</head>
+<body>
+    <aside>
+        <h2>Навигация</h2>
+        <ul>
+            <a href="http://127.0.0.1:8000/"><li class="li"><i class="fa-solid fa-house"></i>Главная</li></a>
+            <a href="http://127.0.0.1:8000/news/" ><li class="li"><i class="fa-solid fa-newspaper"></i>Статьи</li></a>
+            <a href="http://127.0.0.1:8000/registration/" ><li class="li"><i class="fa-solid fa-address-card"></i>регистрация</li></a>
+            <a href="http://127.0.0.1:8000/admin/"><li class="li"><i class="fa-solid fa-ghost"></i>Админ</li></a>
+        </ul>
+    </aside>
+    <main class="features">
+        <a href="profile" class="btn btn-primary">Профиль</a>
+    </main>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+    background: #2c2c2c;
+}
+
+a{
+    text-decoration: none;
+}
+
+.li{
+    list-style-type: none;
+    padding: 5px
+}
+
+aside{
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    min-height: 100%;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+
+.features{
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+.articles{
+    padding: 40px;
+}
+
+.form-control{
+    margin-left: 24%;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.form_only{
+    margin-top: 50px
+}
